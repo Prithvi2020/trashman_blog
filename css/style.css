@@ -247,9 +247,25 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: relative;
   width: 100%;
-  background: #fff; }
-  .site-navbar .site-logo a {
-    font-size: 1.5rem; }
+  background-color: #4fce5d; }
+  .site-navbar .sansserif h2
+  {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .site-navbar .site-logo img {
+    width: 45px;
+	height: 45px;
+  margin-top: 10px;
+  margin-left: 10px;
+	margin-bottom: 10px;
+    }
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
