@@ -4,9 +4,12 @@ body {
   color: gray;
   font-weight: 300;
   font-size: 1rem;
-  background: #fff;
+  background: #2f2c3d;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
+  .bg {
+    background-color: #262431;
+  }
 ::-moz-selection {
   background: #000;
   color: #fff; }
@@ -28,7 +31,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.5;
-  color: #000; }
+  color: #fff; }
 
 .border-2 {
   border-width: 2px; }
@@ -109,7 +112,7 @@ h1, h2, h3, h4, h5,
 
 .site-footer {
   padding: 4em 0;
-  background: #333333; }
+  background: #262431; }
   @media (min-width: 768px) {
     .site-footer {
       padding: 5em 0; } }
@@ -244,26 +247,9 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: relative;
   width: 100%;
-
-  background-color: #4fce5d; }
-  .site-navbar .sansserif h2
-  {
-    font-family: "Times New Roman", Times, serif;
-    color: white;
-    float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  }
-
-  .site-navbar .site-logo img {
-    width: 45px;
-	height: 45px;
-  margin-top: 10px;
-  margin-left: 10px;
-	margin-bottom: 10px;
-    }
+  background: #fff; }
+  .site-navbar .site-logo a {
+    font-size: 1.5rem; }
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
@@ -739,7 +725,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 30px;
   font-weight: 700; }
   .entry2 h2 a {
-    color: #000; }
+    color: #fff; }
 
 .entry2 .excerpt {
   padding-left: 20px;
