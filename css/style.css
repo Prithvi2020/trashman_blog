@@ -112,25 +112,31 @@ h1, h2, h3, h4, h5,
 
 .site-footer {
   padding: 4em 0;
-  background: #262431; }
+  background: #2f2c3d; }
   @media (min-width: 768px) {
     .site-footer {
       padding: 5em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
-    color: #737373; }
+    color: #fff; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
   .site-footer a {
     color: #999999; }
     .site-footer a:hover {
-      color: white; }
+      color: #fff; }
   .site-footer ul li {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
     font-size: 16px;
     color: #fff; }
+  .site-footer .copyright p{
+    color: #2f2c3d;
+  }
+  .site-footer .copyright a{
+    color: #2f2c3d;
+  }
 
 .bg-text-line {
   display: inline;
@@ -269,9 +275,10 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+  }
     .site-navbar .site-navigation .site-menu .active > a {
-      color: #2f89fc; }
+      color: #000; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -279,12 +286,13 @@ h1, h2, h3, h4, h5,
       display: inline-block;
       padding: 10px 10px; }
       .site-navbar .site-navigation .site-menu > li > a {
-        padding: 10px 0px;
-        font-weight: 700;
-        color: #000;
+        padding: 1px 0px;
+        font-weight: 900;
+
+        color: #fff;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #2f89fc; }
+          color: #000; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -1133,19 +1141,26 @@ h1, h2, h3, h4, h5,
   max-width: 150px;
   border-radius: 50%; }
 
-.custom-pagination span, .custom-pagination a {
-  text-align: center;
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  border-radius: 50%; }
+
 
 .custom-pagination a {
-  background: #2f89fc;
-  color: #fff; }
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px; }
   .custom-pagination a:hover {
-    background: #2f89fc; }
+    background-color: #2f89fc;
+    color: white; }
+
+
+.custom-pagination .previous {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.custom-pagination .next {
+  background-color: #4CAF50;
+  color: white;
+}
 
 .block-13, .slide-one-item {
   position: relative;
